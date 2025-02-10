@@ -5,7 +5,7 @@ import { Server } from 'net';
 
 import { createServer } from './server';
 import Logger from './utils/logger';
-import AppConfig from './config/appConfig';
+import AppConfig from './config/app-config';
 
 const PORT = AppConfig.app.port;
 
