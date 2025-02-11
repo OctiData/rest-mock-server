@@ -1,0 +1,112 @@
+[
+  {
+    "id": "704fcddb-1945-44f3-bef9-b76345757c4d",
+    "email": "wellskaitlyn@olson-harmon.com",
+    "avatar": "https://i.pravatar.cc/300?img=1",
+    "phone": "+1-623-060-4671x6307",
+    "password": "l8ZQGdzG(cdH",
+    "firstName": "Jean",
+    "lastName": "Chapman",
+    "role": "admin",
+    "uiTheme": "light"
+  },
+  {
+    "id": "f47ffe9a-0789-48d0-934c-d134d627d9e7",
+    "email": "bmullen@yahoo.com",
+    "avatar": "https://i.pravatar.cc/300?img=2",
+    "phone": "(949)940-8759",
+    "password": "5iE_)zIR+7+f",
+    "firstName": "Joshua",
+    "lastName": "Lucas",
+    "role": "admin",
+    "uiTheme": "dark"
+  },
+  {
+    "id": "2aa64605-c6c6-4c32-8401-e15f68104441",
+    "email": "santanakatherine@hotmail.com",
+    "avatar": "https://i.pravatar.cc/300?img=3",
+    "phone": "786.029.3112",
+    "password": "!(9HARvu$Zk5",
+    "firstName": "Collin",
+    "lastName": "Cuevas",
+    "role": "admin",
+    "uiTheme": "light"
+  },
+  {
+    "id": "a857d964-dccc-4c07-9534-a103145ac1f7",
+    "email": "dixonjoseph@hotmail.com",
+    "avatar": "https://i.pravatar.cc/300?img=4",
+    "phone": "(361)689-4349x895",
+    "password": "My7M43Ld8%SI",
+    "firstName": "Sandra",
+    "lastName": "Johnson",
+    "role": "admin",
+    "uiTheme": "light"
+  },
+  {
+    "id": "4d277d20-a574-46ef-a8e4-40a350551999",
+    "email": "wshields@campbell.biz",
+    "avatar": "https://i.pravatar.cc/300?img=5",
+    "phone": "020.974.0037x06205",
+    "password": "&F3HkFNxe&%e",
+    "firstName": "Diamond",
+    "lastName": "Sanders",
+    "role": "customer",
+    "uiTheme": "light"
+  },
+  {
+    "id": "ea4e050a-884c-4695-8fb7-a9aac6594130",
+    "email": "jenkinsbrenda@yahoo.com",
+    "avatar": "https://i.pravatar.cc/300?img=6",
+    "phone": "6540617861",
+    "password": "F+5Jk00k&Z1P",
+    "firstName": "Keith",
+    "lastName": "Anderson",
+    "role": "admin",
+    "uiTheme": "dark"
+  },
+  {
+    "id": "7bdd2e9f-9138-4819-a5ae-c230df61e966",
+    "email": "yrichardson@sweeney.org",
+    "avatar": "https://i.pravatar.cc/300?img=7",
+    "phone": "7211246871",
+    "password": "wLO0r4Zm)kpt",
+    "firstName": "Belinda",
+    "lastName": "Cook",
+    "role": "customer",
+    "uiTheme": "dark"
+  },
+  {
+    "id": "4be4a375-609d-4026-8b14-a382f38731df",
+    "email": "rebecca16@burton.biz",
+    "avatar": "https://i.pravatar.cc/300?img=8",
+    "phone": "+1-818-111-1434",
+    "password": "P9A2GZrO3*bE",
+    "firstName": "Gina",
+    "lastName": "Braun",
+    "role": "customer",
+    "uiTheme": "dark"
+  },
+  {
+    "id": "7bb72dcb-3506-4adf-b75e-728c5a3b6e65",
+    "email": "mathewsmith@rodriguez-rodriguez.com",
+    "avatar": "https://i.pravatar.cc/300?img=9",
+    "phone": "6911787492",
+    "password": "W7dALlCz*q*O",
+    "firstName": "Kevin",
+    "lastName": "Carroll",
+    "role": "customer",
+    "uiTheme": "light"
+  },
+  {
+    "id": "1482e751-f377-4abc-80b8-c1088b3b66b5",
+    "email": "julie59@yahoo.com",
+    "avatar": "https://i.pravatar.cc/300?img=10",
+    "phone": "582.663.2993",
+    "password": "U0wHzSbi_MIl",
+    "firstName": "Angela",
+    "lastName": "Gardner",
+    "role": "customer",
+    "uiTheme": "dark"
+  }
+]

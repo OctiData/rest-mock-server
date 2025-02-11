@@ -1,8 +1,12 @@
 import express from 'express';
 import cors from 'cors';
 import type { Application } from 'express';
+import * as routes from './routes';
+import { db } from './utils/firestore-helpers';
 
 import MorganMiddleware from './middlewares/morgan';
+
+const seedRoute = new routes.SeedRoute(db);
 
 export function createServer(): Application {
   const app = express();
@@ -19,6 +23,8 @@ export function createServer(): Application {
   app.get('/', (req, res) => {
     res.json({ message: '🚀 RESTMockServer is running!' });
   });
+
+  app.use('/seed', seedRoute.createRouter());
 
   return app;
 }

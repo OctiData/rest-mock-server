@@ -2,6 +2,7 @@ import { initializeApp, cert } from 'firebase-admin/app';
 import { getFirestore, FirestoreDataConverter } from 'firebase-admin/firestore';
 import AppConfig from './../config/app-config';
 import { FirestoreCollections } from '../types/firestore';
+import { User } from '../types/entities/User';
 
 initializeApp({
   credential: cert({
@@ -50,6 +51,9 @@ const converter = <T>(): FirestoreDataConverter<T> => ({
 
 const dataPoint = <T>(collectionPath: string) => firestore.collection(collectionPath).withConverter(converter<T>());
 
-const db: FirestoreCollections = {};
+const db: FirestoreCollections = {
+  users: dataPoint<User>('users'),
+  firestore,
+};
 
 export { db, firestore };
