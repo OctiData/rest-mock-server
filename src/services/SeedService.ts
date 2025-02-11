@@ -2,8 +2,9 @@ import { IGeneralResponse } from '../types/api';
 import { Timestamp } from 'firebase-admin/firestore';
 import { FirestoreCollections } from '../types/firestore';
 import usersData from '../data/initial-users.json';
+import { ISeedService } from './interfaces/ISeedService';
 
-export class SeedService {
+export class SeedService implements ISeedService {
   constructor(private readonly db: FirestoreCollections) {}
 
   async init(): Promise<IGeneralResponse> {

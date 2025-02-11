@@ -1,13 +1,8 @@
 import { Router } from 'express';
-import { SeedController } from '../controllers/SeedController';
-import { FirestoreCollections } from '../types/firestore';
+import { ISeedController } from '../controllers/interfaces/ISeedController';
 
 export class SeedRoute {
-  private seedController: SeedController;
-
-  constructor(private readonly db: FirestoreCollections) {
-    this.seedController = new SeedController(db);
-  }
+  constructor(private readonly seedController: ISeedController) {}
 
   createRouter(): Router {
     const router = Router();

@@ -1,15 +1,15 @@
 import express from 'express';
 import cors from 'cors';
 import type { Application } from 'express';
-import * as routes from './routes';
+
 import { db } from './utils/firestore-helpers';
+import { initializeRoutes } from './initialize-routes';
 
 import MorganMiddleware from './middlewares/morgan';
 
-const seedRoute = new routes.SeedRoute(db);
-
 export function createServer(): Application {
   const app = express();
+  const { seedRoute } = initializeRoutes(db);
 
   app.use(express.urlencoded({ extended: false }));
   app.use(express.json());
